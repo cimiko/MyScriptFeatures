@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <table id="tblData">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>john@gmail.com</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Michael Addison</td>
+            <td>michael@gmail.com</td>
+            <td>UK</td>
+        </tr>
+        <tr>
+            <td>Sam Farmer</td>
+            <td>sam@gmail.com</td>
+            <td>France</td>
+        </tr>
+    </table> -->
+
+    <table id="test">
+        <thead>
+            <tr>
+                <th>Comp No</th>
+                <th>Order Type</th>
+                <th>Order Number</th>
+                <th>Customer Name</th>
+            </tr>
+        </thead>
+        <tbody id="test1">
+
+        </tbody>
+    </table>
+    <!-- // ekspor dengan nama default -->
+<button onclick="tableHtmlToExcel('test')">Export Table Data To Excel File</button>
+<button onclick="test()">test</button>
+<!-- // ekspor dengan nama tertentu -->
+<!-- <button onclick="tableHtmlToExcel('tblData', 'members-data')">Export Table Data To Excel File</button> -->
+</body>
+<script src="script.js"></script>
+<script src="xlsx.core.js"></script>
+<script src="FileSaver.js"></script>
+...
+<script src="tableexport.js"></script>
+</html>
