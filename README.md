@@ -1,2 +1,0 @@
-# MyScriptFeatures
-Kumpulan fitur"
